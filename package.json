@@ -43,6 +43,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@popperjs/core": "^2.10.2",
+    "@splidejs/splide": "^4.0.1",
     "bootstrap": "^5.1.1"
   },
   "babel": {

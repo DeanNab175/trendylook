@@ -1,0 +1,23 @@
+@use '../abstracts';
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-carousel {
+    background-color: abstracts.$light-bg;
+
+    .text-content {
+        height: 540px;
+        .btn {
+            max-width: 198px;
+        }
+    }
+
+    .image-content {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}

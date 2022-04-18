@@ -24,7 +24,7 @@ const del = require('del');
 const path = {
   docs: {
     html: './docs/',
-    img: './docs/images/',
+    img: './docs/assets/',
     style: './docs/css/',
     script: './docs/js/',
     cachebust: './docs/',
@@ -32,7 +32,7 @@ const path = {
   },
   src: {
     html: './src/**/*.html',
-    img: './src/images/**/*.*',
+    img: './src/assets/**/*.*',
     style: './src/scss/**/*.scss',
     script: './src/js/**/*.js',
     cachebust: './docs/**/*.html',
@@ -79,6 +79,7 @@ function script(done) {
       entries: [
         'node_modules/@popperjs/core/dist/umd/popper.js',
         'node_modules/bootstrap/dist/js/bootstrap.js',
+        'node_modules/@splidejs/splide/dist/js/splide.js',
         path.folder.script + entry
       ]
     })
